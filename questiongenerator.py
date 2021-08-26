@@ -234,11 +234,11 @@ class QuestionGenerator:
     ):
         if num_questions > len(scores):
             num_questions = len(scores)
-            print(
+            """print(
                 "\nWas only able to generate {} questions. For more questions, please input a longer text.".format(
                     num_questions
                 )
-            )
+            )"""
 
         qa_list = []
         for i in range(num_questions):
